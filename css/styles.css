@@ -1,0 +1,31 @@
+body {
+    background-color: #F8F8F8;
+}
+
+/*
+ *      Typography
+ */
+
+ h1 {
+    font-family: 'Lora', serif;
+    font-size: 3.375rem;
+    color: #143774;
+ }
+
+ h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1792D2;
+ }
+
+ /*
+ *      Layout
+ */
+
+ nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #707070;
+ }

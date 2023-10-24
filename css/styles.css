@@ -6,13 +6,13 @@ body {
  *      Typography
  */
 
- h1 {
+ .page-title {
     font-family: 'Lora', serif;
     font-size: 3.375rem;
     color: #143774;
  }
 
- h3 {
+.subtitle {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 1rem;

@@ -22,9 +22,20 @@ body {
     color: #1792D2;
  }
 
- /*
+ /************
  *      Layout
- */
+ *************/
+
+ .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+ }
+
+ .container-nav {
+    display: flex;
+    justify-content: space-between;
+ }
 
  nav ul {
     font-family: 'Ubuntu', sans-serif;
@@ -38,7 +49,7 @@ body {
  }
 
  nav li {
-    margin: 0 1em;
+    margin-left: 2em;
 
  }
 
@@ -46,9 +57,18 @@ body {
     text-decoration: none;
     color: #707070;
     font-weight: 700;
+    padding: 0.25em 0;
  }
 
  nav a:hover,
  nav a:focus {
     color: #1792D2;
+ }
+
+ .active-page {
+    border-bottom: 1px solid #707070;
+ }
+
+ .active-page:hover {
+    color: #707070;
  }
